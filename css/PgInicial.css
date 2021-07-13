@@ -8,7 +8,13 @@
 
 .imgfundo{
     height: 100vh;
-    background-image: url(../img/imgfundo1.png);
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-image: linear-gradient(115deg,
+      rgba(241, 241, 241, 0.479),
+      rgba(219, 219, 219, 0.411)), url(../img/imgfundo2.jpg);
     
 }
 
@@ -26,6 +32,7 @@ header{
 }
 
 ul li{
+    font-family: 'Courier New';
     display: inline-block;
    position: absolute;
     margin: 35px;
@@ -93,11 +100,12 @@ ul li  :hover{
 }
 
 .button1 {
+    font-family: 'Courier New';
     background-color:  #363434; 
     color: white; 
     border: 3px solid #363434;
     position: absolute;
-    margin: 26px 1030px;
+    margin: 26px 1020px;
     text-align: center;    
  }
 
@@ -108,11 +116,12 @@ ul li  :hover{
 
 
 .button2 {
+    font-family: 'Courier New';
     background-color:  #F43838; 
     color: white; 
     border: 3px solid  #F43838;
     position: absolute;
-    margin: 26px 1140px;
+    margin: 26px 1130px;
     text-align: right;
     
 }
@@ -173,7 +182,7 @@ ul li  :hover{
 }
 
 .imgchama{
-    margin: 60px 90px;
+    margin: 160px 190px;
     background-color: transparent;
 }
 
@@ -184,7 +193,7 @@ ul li  :hover{
     background-color: transparent;
     color: #F30E0E;
     position: absolute;
-    margin: 30px 100px;
+    margin: -170px 100px;
 }
 
 h3{
@@ -194,11 +203,12 @@ h3{
 }
 
 .button3 {
+    font-family: 'Courier New';
     background-color: #F7D528;; 
     color: white; 
     border: 3px solid  #F7D528;
     margin-top: 450px;
-    margin-left: 290px;
+    margin-left: 130px;
     color:black;
     position: absolute;
 }
@@ -216,8 +226,7 @@ h3{
    text-align: center;
     width: 700px;
     margin-left: 310px;
-    margin-top: 480px;
-    
+    margin-top: 340px;   
 }
 
 
@@ -328,12 +337,7 @@ input{
 }
 
 
-footer{
-    height: 200px;
-    background: #333;
-    color: #FFFFFF;
-    margin-top: 170px;
-}
+
 
 .foo-p{
     position: absolute;
@@ -343,6 +347,262 @@ footer{
 }
 
 
+
+
+.body2 {
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Sura';
+    }
+    
+    .img {
+        margin-top: -200px;
+    }
+    
+    h3 {
+        margin-top: -150px;
+        color: black;
+        text-transform: uppercase;
+    
+    
+    }
+    
+    p {
+    font-size: 20px;
+    color:black;
+    }
+    
+    .container-fluid {
+    background-color: black
+    }
+    
+    .top-part {
+    background-color: #E7E7E7
+    ;
+    }
+    
+    .center-content {
+    margin-top: 100px;
+    margin-bottom: 100px
+    }
+    
+    .btn-pink {
+    border-radius: 0;
+    background-color: #E32900;
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px
+    }
+    
+    .btn-pink:hover {
+    background-color: #E32900;
+    }
+    
+    .line {
+    border-top: 1px solid #fff;
+    width: 90% !important
+    }
+    
+    .fa-mobile {
+    font-size: 20px
+    }
+    
+    #contact {
+    font-size: 15px
+    }
+    
+    .grey-text {
+    color: lightgrey
+    }
+    
+    a   {
+        text-decoration:none;
+        color: #FFFFFF;
+    text-decoration: none;
+    
+    }
+    
+    a:hover {
+        color:#E32900;
+    }
+
+  
+
+
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2? family = Sura & display = swap');
+    
+    
+    .bodys {
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Sura';
+    }
+    
+    .imgs {
+        margin-top: 40px;
+        margin-left: 500px;
+        background-color: transparent;
+    }
+    
+    h3 {
+        margin-top:  0px;
+        color: black;
+        text-transform: uppercase;
+    
+    
+    }
+    
+    .ps {
+    font-size: 20px;
+    color:black;
+    width: 650px;
+    text-align: center;
+    margin: 20px 300px;
+    }
+    
+    .container-fluids {
+    background-color: black
+    }
+    
+    .top-part {
+    background-color: #E7E7E7
+    ;
+    }
+    
+    .center-content {
+    margin-top: 100px;
+    margin-bottom: 100px
+    }
+    
+    .btn-pink {
+    border-radius: 0;
+    background-color: #E32900;
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 20px 550px;
+    width: 200px;
+    }
+    
+    .btn-pink:hover {
+    background-color: #E32900;
+    }
+    
+    .line {
+    border-top: 1px solid #fff;
+    width: 90% !important
+    }
+    
+    .fa-mobile {
+    font-size: 20px
+    }
+    
+    #contact {
+    font-size: 15px
+    }
+    
+    .grey-text {
+    color: lightgrey
+    }
+    
+    a  {
+        text-decoration:none;
+        color: #FFFFFF;
+    text-decoration: none;
+    
+    }
+    
+    a:hover {
+        color:#E32900;
+    }
+
+
+    
+  .foot{
+    margin-top: 100px;  
+    background-color: black;
+      height: 185px;
+      width: 100vw;
+  }
+
+  .img22{
+      background-color: transparent;
+      width: 180px;
+  }
+
+  .poli{
+    background-color:black;
+    color:white;
+    margin-top: -30px; 
+    margin-left: 32px;
+    margin-right:15px;
+
+}
+
+
+  .seguir{
+      background-color: black;
+      color: white;
+      margin-top: -145px;
+      margin-left: 330px;
+  }
+
+  .insta{
+      background-color: black;
+      margin-top: -145px;
+      margin-left: 330px;
+  }
+
+  .face{
+      background-color: black;
+      margin-top: -145px;
+      margin-left: 330px;
+  }
+
+
+
+
+  .cont{
+      background-color: black;
+      color: white;
+      margin-top: -73px;
+      margin-left: 650px;
+      text-decoration: none;
+      
+  }
+
+
+
+.icon{
+    background-color: black;
+    margin-top: -73px;
+    margin-left: 650px;
+}
+
+.iconc{
+    background-color: black;
+    margin-top: -73px;
+    margin-left: 650px;
+}
+
+
+.cop{
+    margin-top: -50px;
+    margin-left: 140px;
+    background-color: black;
+    color: gray;
+}
+ 
 
 @media (max-width: 1024px){
     .imgfundo{
@@ -360,6 +620,7 @@ footer{
     }
     
     ul li{
+        font-family: 'Courier New';
         display: inline-block;
        position: absolute;
         margin: 35px;
@@ -418,6 +679,7 @@ footer{
     }
     
     .button1 {
+        font-family: 'Courier New';
         background-color:  #363434; 
         color: white; 
         border: 3px solid #363434;
@@ -433,6 +695,7 @@ footer{
     
     
     .button2 {
+        font-family: 'Courier New';
         background-color:  #F43838; 
         color: white; 
         border: 3px solid  #F43838;
@@ -513,10 +776,11 @@ footer{
     }
     
     .button3 {
+        font-family: 'Courier New';
         background-color: #F7D528;; 
         color: white; 
         border: 3px solid  #F7D528;
-        margin-top: 530px;
+        margin-top: 600px;
         margin-left: 200px;
         color:black;
         position: absolute;
@@ -681,6 +945,7 @@ footer{
     }
     
     ul li{
+        font-family: 'Courier New';
         display: inline-block;
        position: absolute;
         margin: 35px;
@@ -738,6 +1003,7 @@ footer{
     }
     
     .button1 {
+        font-family: 'Courier New';
         background-color:  #363434; 
         color: white; 
         border: 3px solid #363434;
@@ -753,6 +1019,7 @@ footer{
     
     
     .button2 {
+        font-family: 'Courier New';
         background-color:  #F43838; 
         color: white; 
         border: 3px solid  #F43838;
@@ -833,6 +1100,7 @@ footer{
     }
     
     .button3 {
+        font-family: 'Courier New';
         background-color: #F7D528;; 
         color: white; 
         border: 3px solid  #F7D528;
@@ -999,6 +1267,7 @@ footer{
     }
     
     ul li{
+        font-family: 'Courier New';
         display: inline-block;
        position: absolute;
         margin: 35px;
@@ -1061,6 +1330,7 @@ footer{
     }
     
     .button1 {
+        font-family: 'Courier New';
         background-color:  #363434; 
         color: white; 
         border: 3px solid #363434;
@@ -1076,6 +1346,7 @@ footer{
     
     
     .button2 {
+        font-family: 'Courier New';
         background-color:  #F43838; 
         color: white; 
         border: 3px solid  #F43838;
@@ -1156,6 +1427,7 @@ footer{
     }
     
     .button3 {
+        font-family: 'Courier New';
         background-color: #F7D528;; 
         color: white; 
         border: 3px solid grey;
@@ -1327,6 +1599,7 @@ footer{
     }
     
     ul li{
+        font-family: 'Courier New';
         display: inline-block;
        position: absolute;
         margin: 35px;
@@ -1388,6 +1661,7 @@ footer{
     }
     
     .button1 {
+        font-family: 'Courier New';
         background-color:  #363434; 
         color: white; 
         border: 3px solid #363434;
@@ -1403,6 +1677,7 @@ footer{
     
     
     .button2 {
+        font-family: 'Courier New';
         background-color:  #F43838; 
         color: white; 
         border: 3px solid  #F43838;
@@ -1453,7 +1728,7 @@ footer{
     
     .chama{
         font-family: Stencil Std, fantasy;
-        font-size: 50px;
+        font-size: 70px;
         margin: 240px 80px;
         background-color: transparent;
         color:  #FF6B00;
@@ -1462,14 +1737,14 @@ footer{
     }
     
     .imgchama{
-        margin: 140px 110px;
+        margin: 170px 180px;
         background-color: transparent;
     }
     
     
     .Invisivel{
         font-family: Stencil Std, fantasy;
-        font-size: 50px;
+        font-size: 70px;
         background-color: transparent;
         color: #F30E0E;
         position: absolute;
@@ -1483,6 +1758,7 @@ footer{
     }
     
     .button3 {
+        font-family: 'Courier New';
         background-color: #F7D528;; 
         color: white; 
         border: 3px solid grey;
@@ -1611,6 +1887,7 @@ footer{
     .bottpassar{
         position: absolute;
         margin: 3px 5px;
+        color: black;
     }
     
     .bottpassar :hover{

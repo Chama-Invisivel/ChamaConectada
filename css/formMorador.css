@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
     font-family: "Sura", sans-serif;
     background: white;
     background-image: linear-gradient(115deg,
       rgba(241, 241, 241, 0.479),
-      rgba(219, 219, 219, 0.411)), url(assets/Cidade_Vetores_e_Ilustracoes_de_Stock.jfif);
+      rgba(219, 219, 219, 0.411)), url(../img/6681eea42fc9c35376a8171f0f82e97f.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      background-attachment: fixed;
 
   }
   
@@ -30,10 +32,9 @@ html {
   }
   
   input[type=text],
-  input[type=email],
-  input[type=tel] {
+  input[type=email] {
     padding: 10px 20px;
-    border: 1px solid #999;
+    
     border-radius: 3px;
     display: block;
     width: 100%;
@@ -42,8 +43,7 @@ html {
     outline: none;
   }
   input[type=text]:focus,
-  input[type=email]:focus,
-  input[type=tel]:focus {
+  input[type=email]:focus {
     border-color: #FF6F00;
   }
   
@@ -77,6 +77,7 @@ html {
     letter-spacing: 1px;
     display: inline-block;
     cursor: pointer;
+    text-decoration: none;
   }
   .button:hover,
   .rerun-button:hover {
@@ -97,6 +98,7 @@ html {
   .modal-wrap {
     max-width: 600px;
     margin: 50px auto;
+    
     transition: transform 300ms ease-in-out;
   }
   
@@ -107,6 +109,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
   .modal-header span {
     display: block;
@@ -128,8 +131,7 @@ html {
   
   .modal-body {
     background: white;
-    padding: 40px 100px;
-   
+    padding: 40px 123px;
     margin-bottom: 50px;
     position: absolute;
     top: 0;
@@ -141,7 +143,8 @@ html {
   .modal-body.is-showing {   
     display: block;
  }
-  
+
+
   .animate-out {
     -webkit-animation: out 600ms ease-in-out forwards;
             animation: out 600ms ease-in-out forwards;
@@ -312,7 +315,7 @@ html {
       }
 
       .historia{
-        border-radius: 20px;
+        border-radius: 3px;
       
       }
 
@@ -402,15 +405,10 @@ html {
 
      
       
-      .form-upload{
+     /*  .form-upload{
       width: -20px;
       font-size: small;
-
-       
-        
-        
-        
-       
+               
       }
       
       .input-personalizado{
@@ -422,5 +420,24 @@ html {
       .input-file{
         width: -20px;
       }
+
+
+*/
+
+/*responsive*/
+p {
+  text-align: left;
+  font-family: "Roboto";
+
+}
+
+input[type=text]{
+  
+  
+  border-style: solid;
+  border-width: 1.5px;
+
+}
+
 
 
